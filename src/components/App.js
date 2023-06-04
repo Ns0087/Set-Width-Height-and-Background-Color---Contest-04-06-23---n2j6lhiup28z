@@ -27,9 +27,9 @@ const App = () => {
     };
     
     setBoxes([...boxes, newBox]);
-    setWidth('');
-    setHeight('');
-    setBackgroundColor('');
+    setWidth("");
+    setHeight("");
+    setBackgroundColor("");
   }
   
   return (
@@ -65,7 +65,7 @@ const App = () => {
       <button className='create-btn' onClick={handleCreateBox}>Create Box</button>
       <div id="box-container">
         {boxes.map((box, index) => (
-          <div key={index} style={{width: box.width, height: box.height, backgroundColor: box.backgroundColor,}}></div>
+          <div key={index} style={{width: box.width; height: box.height; backgroundColor: box.backgroundColor}}></div>
         ))}
         </div>
     </div>
