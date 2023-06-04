@@ -12,11 +12,11 @@ const App = () => {
   }
   
   const handleHeight = (e) => {
-    setWidth(e.target.value);
+    setHeight(e.target.value);
   }
 
   const handleBackgroundColor = (e) => {
-    setWidth(e.target.value);
+    setBackgroundColor(e.target.value);
   }
   
   const handleCreateBox = () => {
